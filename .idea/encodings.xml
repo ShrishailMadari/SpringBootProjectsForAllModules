@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Spring-Security-Authentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-InMemory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-RoleBased/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-RoleBasedAuthentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Spring-Security-RoleBased
+
+  security:
+    user:
+      name: xyz
+      password: xyz@4321
+server:
+  port: 9092
