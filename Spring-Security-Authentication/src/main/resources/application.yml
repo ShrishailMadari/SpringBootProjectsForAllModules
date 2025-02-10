@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Spring-Security-Authentication
+  security:
+    user:
+      name: admin
+      password: admin@12345
+server:
+  port: 9090
