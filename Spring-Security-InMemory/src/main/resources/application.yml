@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Spring-Security-InMemory
+
+  security:
+    user:
+      name: abcd
+      password: abcd@12345
+
+server:
+  port: 9091
+
