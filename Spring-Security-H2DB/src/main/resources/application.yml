@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Spring-Security-H2DB
+  security:
+    user:
+      name: h2db
+      password: h2db@12345
+
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update  # Creates tables automatically
+    show-sql: true  # Logs SQL queries in the console
+server:
+  port: 9094

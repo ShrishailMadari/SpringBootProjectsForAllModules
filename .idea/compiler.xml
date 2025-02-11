@@ -10,6 +10,7 @@
         <module name="Spring-Security-InMemory" />
         <module name="Spring-Security-RoleBased" />
         <module name="Spring-Security-Authentication" />
+        <module name="Spring-Security-H2DB" />
         <module name="Spring-Security" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="." options="-parameters" />
       <module name="Spring-Security" options="-parameters" />
       <module name="Spring-Security-Authentication" options="-parameters" />
+      <module name="Spring-Security-H2DB" options="-parameters" />
       <module name="Spring-Security-InMemory" options="-parameters" />
       <module name="Spring-Security-MethodBased" options="-parameters" />
       <module name="Spring-Security-RoleBased" options="-parameters" />
