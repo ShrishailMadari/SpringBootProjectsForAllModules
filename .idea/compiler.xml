@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Security-MethodBased" />
         <module name="Spring-Security-InMemory" />
         <module name="Spring-Security-RoleBased" />
         <module name="Spring-Security-Authentication" />
@@ -22,6 +23,7 @@
       <module name="Spring-Security" options="-parameters" />
       <module name="Spring-Security-Authentication" options="-parameters" />
       <module name="Spring-Security-InMemory" options="-parameters" />
+      <module name="Spring-Security-MethodBased" options="-parameters" />
       <module name="Spring-Security-RoleBased" options="-parameters" />
     </option>
   </component>
