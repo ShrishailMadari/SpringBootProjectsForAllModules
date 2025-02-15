@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/Spring-Security-RoleBased/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-MethodBased/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-Security-H2DB/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Security-JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataJPA-ManyToMany/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

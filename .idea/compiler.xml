@@ -7,11 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Security-MethodBased" />
+        <module name="Spring-Security-JWT" />
         <module name="Spring-Security-InMemory" />
-        <module name="Spring-Security-RoleBased" />
         <module name="Spring-Security-Authentication" />
-        <module name="Spring-Security-H2DB" />
         <module name="Spring-Security" />
+        <module name="Spring-Security-RoleBased" />
+        <module name="Spring-Security-H2DB" />
+      </profile>
+      <profile name="Annotation profile for SpringDataJPA-ManyToMany" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="SpringDataJPA-ManyToMany" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,8 +35,10 @@
       <module name="Spring-Security-Authentication" options="-parameters" />
       <module name="Spring-Security-H2DB" options="-parameters" />
       <module name="Spring-Security-InMemory" options="-parameters" />
+      <module name="Spring-Security-JWT" options="-parameters" />
       <module name="Spring-Security-MethodBased" options="-parameters" />
       <module name="Spring-Security-RoleBased" options="-parameters" />
+      <module name="SpringDataJPA-ManyToMany" options="-parameters" />
     </option>
   </component>
 </project>
