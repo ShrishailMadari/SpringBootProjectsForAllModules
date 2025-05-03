@@ -6,9 +6,15 @@
     <file url="file://$PROJECT_DIR$/Spring-Security-InMemory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-JWT/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-MethodBased/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-Security-OAuth2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-RoleBased/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security-RoleBasedAuthentication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-Security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-AOP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDataJPA-Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDataJPA-JPQLQurries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringDataJPA-JPQLQurries/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDataJPA-ManyToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMVC/src/main/java" charset="UTF-8" />
   </component>
 </project>

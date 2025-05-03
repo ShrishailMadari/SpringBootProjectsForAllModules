@@ -2,17 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringDataJPA-JPQLQurries" />
         <module name="Spring-Security-MethodBased" />
         <module name="Spring-Security-JWT" />
         <module name="Spring-Security-InMemory" />
         <module name="Spring-Security-Authentication" />
         <module name="Spring-Security" />
+        <module name="SpringMVC" />
+        <module name="SpringBoot-AOP" />
         <module name="Spring-Security-RoleBased" />
         <module name="Spring-Security-H2DB" />
+        <module name="SpringDataJPA-Demo" />
       </profile>
       <profile name="Annotation profile for SpringDataJPA-ManyToMany" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,6 +27,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="SpringDataJPA-ManyToMany" />
+        <module name="Spring-Security-OAuth2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,8 +43,12 @@
       <module name="Spring-Security-InMemory" options="-parameters" />
       <module name="Spring-Security-JWT" options="-parameters" />
       <module name="Spring-Security-MethodBased" options="-parameters" />
+      <module name="Spring-Security-OAuth2" options="-parameters" />
       <module name="Spring-Security-RoleBased" options="-parameters" />
+      <module name="SpringBoot-AOP" options="-parameters" />
+      <module name="SpringDataJPA-Demo" options="-parameters" />
       <module name="SpringDataJPA-ManyToMany" options="-parameters" />
+      <module name="SpringMVC" options="-parameters" />
     </option>
   </component>
 </project>
